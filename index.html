@@ -11,96 +11,98 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="row">
-		<div class="col-md-6">
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-				<label class="input-group-text" for="inputGroupSelect01">Options</label>
-			  </div>
-			  <select class="custom-select" id="inputGroupSelect01">
-				<option selected>Choose...</option>
-				<option value="1">One</option>
-				<option value="2">Two</option>
-				<option value="3">Three</option>
-			  </select>
-			</div>
+    <div class="container">
+	   <div class="row">
+			<div class="col-md-6">
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<label class="input-group-text" for="inputGroupSelect01">Options</label>
+				  </div>
+				  <select class="custom-select" id="inputGroupSelect01">
+					<option selected>Choose...</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				  </select>
+				</div>
 
-			<div class="input-group mb-3">
-			  <select class="custom-select" id="inputGroupSelect02">
-				<option selected>Choose...</option>
-				<option value="1">One</option>
-				<option value="2">Two</option>
-				<option value="3">Three</option>
-			  </select>
-			  <div class="input-group-append">
-				<label class="input-group-text" for="inputGroupSelect02">Options</label>
-			  </div>
-			</div>
+				<div class="input-group mb-3">
+				  <select class="custom-select" id="inputGroupSelect02">
+					<option selected>Choose...</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				  </select>
+				  <div class="input-group-append">
+					<label class="input-group-text" for="inputGroupSelect02">Options</label>
+				  </div>
+				</div>
 
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-				<button class="btn btn-outline-secondary" type="button">Button</button>
-			  </div>
-			  <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-				<option selected>Choose...</option>
-				<option value="1">One</option>
-				<option value="2">Two</option>
-				<option value="3">Three</option>
-			  </select>
-			</div>
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<button class="btn btn-outline-secondary" type="button">Button</button>
+				  </div>
+				  <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+					<option selected>Choose...</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				  </select>
+				</div>
 
-			<div class="input-group">
-  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-  <div class="input-group-append">
-    <button class="btn btn-outline-secondary" type="button">Button</button>
-  </div>
-</div>	
-		</div>
-		<div class="col-md-6">
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-				<span class="input-group-text" id="basic-addon1">@</span>
-			  </div>
-			  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+				<div class="input-group">
+	  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+		<option selected>Choose...</option>
+		<option value="1">One</option>
+		<option value="2">Two</option>
+		<option value="3">Three</option>
+	  </select>
+	  <div class="input-group-append">
+		<button class="btn btn-outline-secondary" type="button">Button</button>
+	  </div>
+	</div>	
 			</div>
+			<div class="col-md-6">
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon1">@</span>
+				  </div>
+				  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+				</div>
 
-			<div class="input-group mb-3">
-			  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-			  <div class="input-group-append">
-				<span class="input-group-text" id="basic-addon2">@example.com</span>
-			  </div>
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				  <div class="input-group-append">
+					<span class="input-group-text" id="basic-addon2">@example.com</span>
+				  </div>
+				</div>
+
+				<label for="basic-url">Your vanity URL</label>
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+				  </div>
+				  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+				</div>
+
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<span class="input-group-text">$</span>
+				  </div>
+				  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+				  <div class="input-group-append">
+					<span class="input-group-text">.00</span>
+				  </div>
+				</div>
+
+				<div class="input-group">
+				  <div class="input-group-prepend">
+					<span class="input-group-text">With textarea</span>
+				  </div>
+				  <textarea class="form-control" aria-label="With textarea"></textarea>
+				</div>		   
 			</div>
-
-			<label for="basic-url">Your vanity URL</label>
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-				<span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-			  </div>
-			  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-			</div>
-
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-				<span class="input-group-text">$</span>
-			  </div>
-			  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-			  <div class="input-group-append">
-				<span class="input-group-text">.00</span>
-			  </div>
-			</div>
-
-			<div class="input-group">
-			  <div class="input-group-prepend">
-				<span class="input-group-text">With textarea</span>
-			  </div>
-			  <textarea class="form-control" aria-label="With textarea"></textarea>
-			</div>		   
-		</div>
+		</div>	
 	</div>
 
     <!-- Optional JavaScript -->
