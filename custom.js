@@ -12,5 +12,5 @@
 
 $(document).ready(function() {
 	$('#custom-fields-content input').attr("readonly", "readonly");
-	$('#customContent').prepend('<a href="https://312k1t.github.io/index.html" type="button" class="btn btn-default" target="_blank">Edit custom fields</a>');
+	$('#customContent').prepend('<a href="https://312k1t.github.io/index.html" type="button" class="btn btn-default">Edit custom fields</a>');
 });
